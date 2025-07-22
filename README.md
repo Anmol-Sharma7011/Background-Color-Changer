@@ -1,43 +1,47 @@
 # Background Color Changer
 
-A simple web application that allows users to switch the background color by clicking on color buttons.
+A simple interactive web application that allows users to change the background color by clicking on different colored buttons.
+
+## Live Demo
+[Try the Color Changer](https://anmol-sharma7011.github.io/Background-Color-Changer/)
 
 ## Features
 
-- Click buttons to change background color
-- Four color options: Grey, Red, Blue, Yellow
-- Clean and responsive UI
-- Instant color changes
+- Four color options: Grey, Red, Blue, and Yellow
+- Single-click color changing
+- Responsive design
+- Simple and intuitive interface
 
 ## Technologies Used
 
 - HTML5
-- CSS3  
-- JavaScript
+- CSS3
+- JavaScript (ES6+)
 
-## How It Works
+## How to Use
 
-- The page displays 4 colored buttons represented by `<span>` elements
-- Each button has a unique ID matching its color
-- When clicked, the JavaScript changes the page's background color to match the button
-- Event listeners handle the click interactions
-- CSS provides styling for buttons and layout
+1. Visit the [live demo](https://anmol-sharma7011.github.io/Background-Color-Changer/)
+2. Click on any of the colored squares
+3. Watch the page background instantly change to match your selection
 
-## Usage
+## Local Development
 
-1. Open `index.html` in a web browser
-2. Click any of the colored buttons
-3. Watch the page background instantly change to that color
-4. Click different buttons to try various colors
+To run this project locally:
 
-## Live Demo
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Start clicking the color buttons to see the changes
 
-You can try the live demo [here](#) (Add your deployed link)
+## Project Structure
+Color_Changer
+             ├── index.html 
+             ├── style.css 
+             └── script.js
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Feel free to fork this project and make your own changes. Pull requests are welcome!
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is open source and available for anyone to use and modify.
